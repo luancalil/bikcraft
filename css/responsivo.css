@@ -1,0 +1,171 @@
+/*Estilo para Tablet*/
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Qualidade Home*/
+  .quality:after {
+    right: 67px;
+  }
+
+  .quality-list li {
+    padding: 0 10px;
+  }
+  /*Footer*/
+
+  .social-midia-footer ul li a {
+    border: 3px solid #fec632;
+    display: block;
+    padding: 6px;
+  }
+
+  .social-midia-footer ul li a img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /*Produtos*/
+  .product-item h2 {
+    top: -150px;
+    margin-bottom: -53px;
+  }
+
+  .product-icon {
+    background: #2a2a2a;
+    padding: 41px 0;
+  }
+
+  .product-info p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    height: 122px;
+    padding: 20px 30px;
+  }
+
+  .product-info ul li {
+    width: 181px;
+    height: 49px;
+  }
+}
+
+/*Estilo para Smartphone*/
+
+@media only screen and (max-width: 787px) {
+  /*Header*/
+
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+  .header img {
+    margin: 0 auto 10px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    border: 4px solid #2a2a2a;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+  .header_menu ul li a:hover {
+    border-color: #ffffff;
+  }
+
+  .header_menu ul li a.active {
+    border-color: #ffffff;
+  }
+
+  /*Introdução*/
+
+  .introduction {
+    margin-top: 0px;
+    padding-top: 40px;
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .introduction h1 {
+    font-size: 36px;
+  }
+  /*Introdução-two*/
+
+  .introduction-two {
+    margin-top: 0px;
+  }
+
+  /*Call to Action*/
+
+  .call-to-action {
+    padding-top: 10px;
+  }
+
+  /*Qualidade Home*/
+  .quality:after {
+    display: none;
+  }
+
+  /*Sobre*/
+  .mission-about-us p {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .mission-about-us ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /*Produtos*/
+  .product-item h2 {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+
+  .product-icon {
+    background: #2a2a2a;
+    padding: 41px 0;
+  }
+
+  .product-info p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .product-info ul li {
+    width: 149px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 16px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento-contact ul {
+    padding-right: 0px;
+  }
+
+  /*Contato*/
+  .contato-form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .contato-dados ul li {
+    padding: 6px;
+  }
+}

@@ -1,0 +1,25 @@
+.about-us {
+  background: url("../img/jpg/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.mission-about-us {
+  padding-top: 60px;
+}
+
+.mission-about-us p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+
+.mission-about-us ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.team {
+  padding-top: 20px;
+}
